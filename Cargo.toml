@@ -5,7 +5,7 @@ documentation = "https://docs.rs/slack_api"
 license = "Apache-2.0"
 name = "slack_api"
 repository = "https://github.com/slack-rs/slack-rs-api.git"
-version = "0.23.1"
+version = "0.23.2"
 edition = "2018"
 readme = "README.md"
 
@@ -16,7 +16,7 @@ serde_json = "1.0"
 
 [dependencies.reqwest_]
 package = "reqwest"
-version = "0.10"
+version = "0"
 optional = true
 default-features = false
 features = ["gzip"]
@@ -28,7 +28,7 @@ optional = true
 
 [dev-dependencies.tokio]
 package = "tokio"
-version = "0.2"
+version = "1"
 features = ["macros"]
 
 [features]
